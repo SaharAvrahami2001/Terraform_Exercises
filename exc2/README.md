@@ -1,7 +1,7 @@
-# Exercise 1: Create an EC2 instance with a Provider file
+# Exercise 1: Create an EC2 instance with a Provider file and a Variables File
 
 ## Objective
-This exercise demonstrates how to create an EC2 instance on AWS using Terraform, while managing provider configurations in a separate file.
+This exercise demonstrates how to create an EC2 instance on AWS using Terraform, utilizing a variables file for configuration management and a separate file for provider settings.
 
 ## Prerequisites
 - An AWS account with appropriate permissions to create EC2 instances.
