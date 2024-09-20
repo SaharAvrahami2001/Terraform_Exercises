@@ -21,7 +21,7 @@ terraform apply
 ## Expected Outcome
 A new EC2 instance should be created in your AWS account.
 
-# Cleanup
+## Cleanup
 To delete the created resources, run:
 ```
 terraform destroy
