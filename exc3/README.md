@@ -19,7 +19,8 @@ terraform apply
 ```
 
 ## Expected Outcome
-An EC2 instance should be created with the HTTPD server installed and running. Additionally, a new AWS key pair should be created for secure SSH access to the instance.
+An EC2 instance should be created with the HTTPD server installed and running. Additionally, a security group should be created that allows inbound traffic on port 80, enabling HTTP access. The instance will be associated with this security group, allowing it to receive web traffic from anywhere. Also a new aws keypair will be created.
+
 
 ## Cleanup
 To delete the created resources, run:
