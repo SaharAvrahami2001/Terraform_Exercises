@@ -19,7 +19,7 @@ terraform apply
 ```
 
 ## Expected Outcome
-A new EC2 instance should be created in your AWS account.
+An EC2 instance should be created with the HTTPD server installed and running. Additionally, a new AWS key pair should be created for secure SSH access to the instance.
 
 ## Cleanup
 To delete the created resources, run:
